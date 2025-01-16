@@ -12,3 +12,7 @@ print("First instance of 'd' is at index " + str(phrase.index("d")))
 
 phrase = "jddhshdhshdsdhsjdhsjdhsdjh"
 print(phrase.replace("d", "elephant"))
+
+variable = 284927374
+phrase = f"formatted template literal with variables embedded -> {variable}"
+print(phrase)
